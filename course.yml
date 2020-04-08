@@ -14,34 +14,21 @@ chunks:
 
     content: |
 
-        # Hi there!
+        # このコースについて
 
-        Check out the [linear algebra recap](flow:001-linalg-recap). Do it now. Do it.
+        このコースは、Salesforceの開発者として必要な知識を学習します。
+        Salesforce社の公式学習カリキュラムである「Salesforce Trailhead」を用いて学習を進めます。
 
-        You can also go there using a
-        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">Bootstrap button</a>.
+        ## 対象者
 
-        You can also jump directly to the [sample quiz](flow:quiz-test).
+        - Javaなどのオブジェクト思考言語の学習を行った、または開発経験がある
 
-        Look at the amazing embedded [PDF](repocur:pdfs/sample.pdf).
+        # 学習を開始する
 
-        In addition to interactive content, RELATE also supports [static (i.e.
-        non-interactive) pages](staticpage:test).
+        <a href="flow:001-linalg-recap" role="button" class="btn btn-default">学習を開始する</a>.
 
-        Remember, this image shows the model that RELATE is trying to put out
-        of business:
+        ## 入門編
 
-        <img src="repo:images/classroom.jpeg">
-
-        (![creative commons](repo:images/cc.png)/by [kevin dooley](https://secure.flickr.com/photos/pagedooley/13905987989/) on Flickr)
-
-        <div class="well" markdown="1">
-          *RELATE* <i class="fa fa-heart"></i>
-          <a href="https://djangoproject.com/"><img src="repo:images/django-logo.png"></a>.
-
-          (Note that all of this is sample content. RELATE does not clutter
-          your course page with information about itself.)
-        </div>
 
 -
     title: "Exam pointer"

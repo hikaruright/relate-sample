@@ -1,4 +1,4 @@
-title: "Linear Algebra"
+title: "セットアップしてみよう"
 description: |
     # Linear Algebra Recap
 
@@ -17,92 +17,87 @@ pages:
     id: intro
     content: |
 
-        # A little distraction to start
+        ## Salesforce Trailheadとは
 
-        Yadda yadda.
+        Salesforceプラットフォームについて学ぶことが学習ツールで、
+        同社による運営が行われています。
+-
+    type: Page
+    id: signin
+    content: |
 
-        {% from "content-macros.jinja" import youtube %}
-        {{ youtube("QH2-TGUlwu4") }}
+        
+        ## Trailheadにアクセス
+
+        以下のサイトにアクセスします。
+
+        https://trailhead.salesforce.com/ja
+
+        右上に「サインアップ」とあるので、そちらをクリックします。
+
+        ![](https://i.imgur.com/204KVwg.png)
+
+
+        好きなアカウントを用いてログインします。
+        今回は、「Salesforce」を利用します。
+
+        ![](https://i.imgur.com/Er0vk1g.png)
+
+
+        普段、TeamSpiritへのログインで利用しているSalesforceアカウントを利用してログインしてください。
+
+        ![](https://i.imgur.com/CrXGZxX.png)
+
+
+        ログイン後、必要な情報があれば入力を求められますので適宜入力してください。
+
 
 -
     type: Page
-    id: vectors
+    id: mainpage
     content: |
 
-        # Vectors
+        ### Trailheadのホーム
 
-        A vector is pretty straight.
+        Trailheadのホームは以下のようになっています。
+        以下の場合には、例として一つのコースを受講しています。
 
+        ![](https://i.imgur.com/zu1ChBP.png)
 
 -
     type: Page
-    id: ipynb
+    id: basics
     content: |
 
-      # Ipython notebook render examples
+        ## Trailheadによる学習を開始する
 
-      The following examples were using [this ipynb file](repocur:ipynbs/Ipynb_example.ipynb) in `ipynbs` folder of this repo.
+        ### Trailheadの基本を学ぶ
 
-      ## Fully rendered
-      
-      The following markdown was used to render the full notebook:
-      
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb") }}' }}
-      ```
+        まずは簡単なものから実施していきましょう。
 
-      Result:
+        ホームに「あなたにおすすめ」という項目をみると、「Trailheadの基本」
+        というモジュールがあります。
 
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb") }}
+        まずはこれからチャレンジしてみましょう。
 
-      ## Sliced
+        ![](https://i.imgur.com/3kTh7fI.png)
 
-      We can choose which cells (by their 0-based indices) to be rendered with arg `indices`.
+        選択すると、以下のようにモジュールの各コースと予想時間が表示されます。
 
-      For example, cells 0 through 4 can be rendered with the following markdown:
+        ![](https://i.imgur.com/R8yXPt5.png)
 
+        それぞれの単元を選択すると内容を確認でき、最後にテストがあります。
 
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", indices=[0,1,2,3,4]) }}' }}
-      ```
+        すべてをクリアすると、以下のようにチェックマークがつきます。
 
-      Or using `jinja2` built-in function [`range`](http://jinja.pocoo.org/docs/2.9/templates/#range):
+        ![](https://i.imgur.com/zBDH0hM.png)
 
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", indices=range(0,4)) }}' }}
-      ```
-
-      Result:
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", indices=range(0,4)) }}
-
-      ## With markdown cleared
-
-      Use `clear_markdown` to get the result with content of *all* markdown cells cleared:
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_markdown=True) }}' }}
-      ```
-
-      Result:
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_markdown=True) }}
-
-      ## With code execution output cleared
-
-      Use `clear_output` to get the result with output of *all* code cells cleared:
-
-      Result:
-
-      ```
-      {{ '{{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_output=True) }}' }}
-      ```
-
-      {{ render_notebook_cells("ipynbs/Ipynb_example.ipynb", clear_output=True) }}
+        これで、「Trailheadの基本」モジュールは完了です。
 
 
 completion_text: |
 
-    # End of Linear Algebra Recap
+    # これから
 
-    Now you're ready to take the [quiz](flow:quiz-test).
+    以降では、お勧めのコースを紹介していきますので、
+    ご自身の学習したい範囲に合わせて学習を進めてください。
