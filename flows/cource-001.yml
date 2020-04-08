@@ -4,3 +4,19 @@ description: |
     # Salesforceの入門編
 
     入門編として、以下のコースを紹介します。
+
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view]
+    grade_identifier: null
+
+pages:
+
+-
+    type: Page
+    id: instro
+    content: |
+        
+        # Salsforce入門編
