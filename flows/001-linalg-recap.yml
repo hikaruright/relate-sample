@@ -1,6 +1,9 @@
 title: "セットアップしてみよう"
 description: |
-    # Linear Algebra Recap
+
+    # Salesforce Trailheadをはじめよう
+
+    このコースでは、Salesforce Trailheadの使い方を学習します。
 
 rules:
     access:
@@ -50,7 +53,6 @@ pages:
 
 
         ログイン後、必要な情報があれば入力を求められますので適宜入力してください。
-
 
 -
     type: Page
